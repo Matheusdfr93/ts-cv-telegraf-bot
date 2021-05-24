@@ -21,7 +21,7 @@ class App {
       ctx.session.history = [];
       ctx.scene.enter("BEVW1M1");
     });
-    console.log("AQUI");
+
     this.bot.hears(
       /(oi|ol[aAáÁ]|boa tarde|boa noite|bom dia|opa|eae|iae|i ae|hi|hello)/gi,
       async (ctx: any) => {
