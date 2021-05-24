@@ -1,13 +1,22 @@
 import { TelegrafMenu } from "donato";
+import createBEVService from "./Service";
+import createMenuHelpers from "../../Utils/Menu";
 
 class BEVW1M1 extends TelegrafMenu {
-  // service = createBEVService();
+  service = createBEVService();
 
-  // menuHelpers = createMenuHelpers();
+  menuHelpers = createMenuHelpers();
 
   firstHandler = async (ctx: any) => {
     try {
-      await ctx.reply("Boa tarde!!!");
+      ctx.session.name = ctx.update.message.from.first_name;
+      const { name } = ctx.session;
+      const { dialogMessage, keyboard, dialogKeyboard } =
+        this.service.handleMenu(name);
+      console.log(keyboard);
+      ctx.session.dialogKeyboard = dialogKeyboard;
+      ctx.session.textKeyboard = keyboard;
+      await ctx.reply(dialogMessage, this.keyboard.create(keyboard));
 
       return ctx.wizard.next();
     } catch (e) {
@@ -16,6 +25,24 @@ class BEVW1M1 extends TelegrafMenu {
       ctx.reply("Algo Deu Errado");
       return ctx.scene.leave();
     }
+  };
+
+  subscribeComposer = () => {
+    this.composer.hears(this.menuHelpers.verifier, async (ctx: any) => {
+      try {
+        const { dialogKeyboard } = ctx.session;
+        console.log(dialogKeyboard);
+        const selectedButton = dialogKeyboard.find(
+          (el) => el.dsDialogKeyboard === ctx.session.selection
+        );
+        return ctx.scene.enter(selectedButton.cdNextMenuKeyboard);
+      } catch (e) {
+        // eslint-disable-next-line no-console
+        console.log(e);
+        await ctx.reply("Descurpa");
+        return ctx.scene.leave();
+      }
+    });
   };
 }
 
