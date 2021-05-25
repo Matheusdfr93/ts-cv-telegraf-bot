@@ -7,7 +7,7 @@
     {
       "idDialogKeyboard": 50,
       "dsDialogKeyboard": "Português 🇧🇷",
-      "dsDialogFact": null,
+      "dsDialogLabel": "PTB",
       "dsDialogAnswer": null,
       "cdNextMenuKeyboard": "BEVW1M2",
       "nrOrderKeyboard": 1
@@ -15,7 +15,7 @@
     {
       "idDialogKeyboard": 51,
       "dsDialogKeyboard": "English 🇺🇲",
-      "dsDialogFact": null,
+      "dsDialogLabel": "ENG",
       "dsDialogAnswer": null,
       "cdNextMenuKeyboard": "BEVW1M2",
       "nrOrderKeyboard": 2

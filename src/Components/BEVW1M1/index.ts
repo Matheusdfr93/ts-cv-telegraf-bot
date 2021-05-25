@@ -13,7 +13,6 @@ class BEVW1M1 extends TelegrafMenu {
       const { name } = ctx.session;
       const { dialogMessage, keyboard, dialogKeyboard } =
         this.service.handleMenu(name);
-      console.log(keyboard);
       ctx.session.dialogKeyboard = dialogKeyboard;
       ctx.session.textKeyboard = keyboard;
       await ctx.reply(dialogMessage, this.keyboard.create(keyboard));
@@ -31,10 +30,10 @@ class BEVW1M1 extends TelegrafMenu {
     this.composer.hears(this.menuHelpers.verifier, async (ctx: any) => {
       try {
         const { dialogKeyboard } = ctx.session;
-        console.log(dialogKeyboard);
         const selectedButton = dialogKeyboard.find(
           (el) => el.dsDialogKeyboard === ctx.session.selection
         );
+        ctx.session.language = selectedButton.dsDialogLabel;
         return ctx.scene.enter(selectedButton.cdNextMenuKeyboard);
       } catch (e) {
         // eslint-disable-next-line no-console
