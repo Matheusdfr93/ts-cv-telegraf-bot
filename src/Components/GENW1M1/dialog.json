@@ -1,0 +1,20 @@
+{
+  "idDialog": 1,
+  "dsDialog": [
+    {
+      "PTB": "Endereço: Av Rangel Pestana 1438, São Paulo, Brasil",
+      "ENG": "Adress: Av Rangel Pestana 1438, São Paulo, Brasil"
+    },
+    {
+      "PTB": "Nascido em Campanha MG, Brasil em 28 de Outubro de 1993",
+      "ENG": "Born in Campanha, Brazil in Octuber 28 of 1993"
+    },
+    {
+      "PTB": "*Linguas*:\nPortuguês: Nativo\nInglês: Básico\nEspanhol: Básico",
+      "ENG": "*Languages*:\nPortuguese: Native\nEnglish: Basic\nSpanish: Basic"
+    }
+  ],
+  "cdNextMenu": "BEVW1M2",
+  "cdMultipleDialog": "SCS1",
+  "dialogKeyboard": {}
+}
