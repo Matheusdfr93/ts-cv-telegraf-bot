@@ -1,0 +1,111 @@
+{
+  "idDialog": 1,
+  "dsDialog": {
+    "PTB": "Legal, agora me diga, o que quer saber?",
+    "ENG": "Nice, now, tell me, what I can do for you?"
+  },
+  "cdNextMenu": "BEVW1M2",
+  "cdMultipleDialog": "SCS1",
+  "dialogKeyboard": {
+    "PTB": [
+      {
+        "idDialogKeyboard": 50,
+        "dsDialogKeyboard": "Geral ♟️",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "GENW1M1",
+        "nrOrderKeyboard": 1
+      },
+      {
+        "idDialogKeyboard": 50,
+        "dsDialogKeyboard": "Contato ✉️",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "CONW1M1",
+        "nrOrderKeyboard": 1
+      },
+      {
+        "idDialogKeyboard": 51,
+        "dsDialogKeyboard": "Acadêmico 🎓",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "ACAW1M1",
+        "nrOrderKeyboard": 2
+      },
+      {
+        "idDialogKeyboard": 51,
+        "dsDialogKeyboard": "Profissional 👷",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "PROW1M1",
+        "nrOrderKeyboard": 2
+      },
+      {
+        "idDialogKeyboard": 51,
+        "dsDialogKeyboard": "Escolher Outra Língua 🌏",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "BEVW1M1",
+        "nrOrderKeyboard": 2
+      },
+      {
+        "idDialogKeyboard": 51,
+        "dsDialogKeyboard": "Tchau 👋",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "EXTW1M1",
+        "nrOrderKeyboard": 2
+      }
+    ],
+    "ENG": [
+      {
+        "idDialogKeyboard": 50,
+        "dsDialogKeyboard": "General ♟️",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "GENW1M1",
+        "nrOrderKeyboard": 1
+      },
+      {
+        "idDialogKeyboard": 50,
+        "dsDialogKeyboard": "Contact ✉️",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "CONW1M1",
+        "nrOrderKeyboard": 1
+      },
+      {
+        "idDialogKeyboard": 51,
+        "dsDialogKeyboard": "Academic 🎓",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "ACAW1M1",
+        "nrOrderKeyboard": 2
+      },
+      {
+        "idDialogKeyboard": 52,
+        "dsDialogKeyboard": "Professional 👷",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "PROW1M1",
+        "nrOrderKeyboard": 2
+      },
+      {
+        "idDialogKeyboard": 51,
+        "dsDialogKeyboard": "Other Language 🌏",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "BEVW1M1",
+        "nrOrderKeyboard": 3
+      },
+      {
+        "idDialogKeyboard": 51,
+        "dsDialogKeyboard": "Bye 👋",
+        "dsDialogFact": null,
+        "dsDialogAnswer": null,
+        "cdNextMenuKeyboard": "EXTW1M1",
+        "nrOrderKeyboard": 4
+      }
+    ]
+  }
+}
