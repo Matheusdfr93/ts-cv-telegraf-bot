@@ -1,0 +1,10 @@
+{
+  "idDialog": 1,
+  "dsDialog": {
+    "PTB": "Valeu! Qualquer coisa me manda um oi! 😎",
+    "ENG": "Bye! Thanks for the visit! 👋"
+  },
+  "cdNextMenu": "BEVW1M1",
+  "cdMultipleDialog": "SCS1",
+  "dialogKeyboard": {}
+}
