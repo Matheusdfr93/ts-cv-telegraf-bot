@@ -1,0 +1,24 @@
+{
+  "idDialog": 1,
+  "dsDialog": [
+    {
+      "PTB": "Email: matheusdfr93@gmail.com",
+      "ENG": "Email: matheusdfr93@gmail.com"
+    },
+    {
+      "PTB": "GitHub: Matheusdfr93",
+      "ENG": "GitHub: https://github.com/Matheusdfr93"
+    },
+    {
+      "PTB": "linkedIn: https://www.linkedin.com/in/matheus-freitas-telecom/",
+      "ENG": "linkedIn: https://www.linkedin.com/in/matheus-freitas-telecom/"
+    },
+    {
+      "PTB": "Celular: +55(11)990054913",
+      "ENG": "Telephone: +55(11)990054913"
+    }
+  ],
+  "cdNextMenu": "BEVW1M2",
+  "cdMultipleDialog": "SCS1",
+  "dialogKeyboard": {}
+}
