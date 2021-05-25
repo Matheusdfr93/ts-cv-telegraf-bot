@@ -1,0 +1,16 @@
+{
+  "idDialog": 1,
+  "dsDialog": [
+    {
+      "PTB": "*Graduação*: Engenharia de Telecomunicações 2012-2018\nUniversidade Federal de São João Del-Rei",
+      "ENG": "*Degree*: Telecommunications Engineering 2012-2018\nUniversidade Federal de São João Del-Rei"
+    },
+    {
+      "PTB": "Durante a graduação, foi monitor de Eletromagnetismo e Principios de Comunicação.",
+      "ENG": "During graduation, he was monitor of electromagnetism and analog modulation."
+    }
+  ],
+  "cdNextMenu": "BEVW1M2",
+  "cdMultipleDialog": "SCS1",
+  "dialogKeyboard": {}
+}
