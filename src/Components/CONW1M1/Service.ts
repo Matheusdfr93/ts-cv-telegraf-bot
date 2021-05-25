@@ -3,7 +3,7 @@ import * as data from "./dialog.json";
 // import createDialogService from "../Dialog/Service";
 // import createAcepptedLanguages from "../../Utils/languages";
 
-function createBEVService() {
+function createCONService() {
   // const menuHelpers = createMenuHelpers();
   // const acceptedLanguages = createAcepptedLanguages();
   // const dialogService = createDialogService();
@@ -20,4 +20,4 @@ function createBEVService() {
   return { handleMenu };
 }
 
-export default createBEVService;
+export default createCONService;

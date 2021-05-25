@@ -1,9 +1,9 @@
 import { TelegrafMenu } from "donato";
-import createBEVService from "./Service";
+import createCONService from "./Service";
 import createMenuHelpers from "../../Utils/Menu";
 
 class CONW1M1 extends TelegrafMenu {
-  service = createBEVService();
+  service = createCONService();
 
   menuHelpers = createMenuHelpers();
 
