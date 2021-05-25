@@ -1,0 +1,24 @@
+{
+  "idDialog": 1,
+  "dsDialog": [
+    {
+      "PTB": "*Estágio*: Prefeitura Municipal da Campanha - 2017\n Desenvolvimento de aplicativo para Android, Banco de Dados e site para administração do aplicativo. Aplicativo para exibir pontos turísticos da cidade.",
+      "ENG": "*Intern*: Campanha City Town\n Develop a app using Android and MySql to show turistic points in city."
+    },
+    {
+      "PTB": "*Professor de Matemática*: Cooperativa Educacional da Campanha - 2017\n Aulas de matemática para o ensino médio",
+      "ENG": "Math Teacher: Mathematic Classes to high school."
+    },
+    {
+      "PTB": "*Analista de Sistemas Jr*: Netpartners - 2019 \nAnálise de dados e Sustentação ao cliente. Ferramentas: Microsoft SQL, Talend, PowerBI",
+      "ENG": "*Systems Analyst jr*: Netpartners - 2019 \nData Analisys, suport. Technologies: Microsoft SQL, Talend, PowerBI"
+    },
+    {
+      "PTB": "*Analista de ChatBot Jr*: Weduu 2019 - Presente \n Desenvolvimento de chatbots e soluções, utilizando JavaScript, SQL, ferramentas de IA e outras tecnologias.",
+      "ENG": "*Systems Analyst jr*: Weduu - 2019 - Present: \n Chatbot and Solutions development, using nodeJS, SQL, IBM Watson and others"
+    }
+  ],
+  "cdNextMenu": "BEVW1M2",
+  "cdMultipleDialog": "SCS1",
+  "dialogKeyboard": {}
+}
