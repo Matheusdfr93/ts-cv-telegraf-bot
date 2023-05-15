@@ -1,6 +1,6 @@
 {
   "idDialog": 1,
-  "dsDialog": "Hello #{name}, I'm Matheus's assistant, select your language",
+  "dsDialog": "Hello #{name}, I'm Matheus's bot assistant, select your language",
   "cdNextMenu": "BEVW1M2",
   "cdMultipleDialog": "SCS1",
   "dialogKeyboard": [

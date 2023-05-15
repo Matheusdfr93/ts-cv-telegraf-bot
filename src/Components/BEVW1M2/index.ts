@@ -12,7 +12,6 @@ class BEVW1M2 extends TelegrafMenu {
       const { language } = ctx.session;
       const { dialogMessage, keyboard, dialogKeyboard } =
         this.service.handleMenu(language);
-      console.log(keyboard);
       ctx.session.dialogKeyboard = dialogKeyboard;
       ctx.session.textKeyboard = keyboard;
       await ctx.reply(dialogMessage, this.keyboard.create(keyboard));

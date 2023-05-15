@@ -17,6 +17,11 @@ class App {
 
     // this.bot.hears('Sair', exit);
 
+    // eslint-disable-next-line @typescript-eslint/no-floating-promises
+    // this.bot.telegram.setWebhook(
+    //   `https://${REGION!}-${PROJECT_ID!}.cloudfunctions.net/${FUNCTION_NAME!}`
+    // );
+
     this.bot.start(async (ctx: any) => {
       ctx.session.history = [];
       ctx.scene.enter("BEVW1M1");
